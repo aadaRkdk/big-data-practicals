@@ -1,6 +1,6 @@
 # hadoop-setup
-
 This folder contains resources for setting up and configuring Hadoop.
+
 
 ### A. Minimum System Specifications required for Hadoop framework:
 
@@ -14,7 +14,7 @@ This folder contains resources for setting up and configuring Hadoop.
 | **Network**       | Basic networking support for localhost |
 
 
-### B. Steps Involved Apache Hadoop Installation and Configuration:
+### B. Apache Hadoop Installation and Configuration:
 
 #### 1. Install Java
 To install OpenJDK 11, run the following command:
