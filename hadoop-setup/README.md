@@ -27,7 +27,7 @@ After installation, confirm the Java version with:
 java --version
 ```
 
-### 2. Create Hadoop User:
+#### 2. Create Hadoop User:
 To create dedicated user for Hadoop.
 ```bash
 sudo adduser hadoopuser
@@ -36,3 +36,13 @@ After creating hadoopuser, switch to it.
 ```bash 
 sudo su -hadoopuser
 ```
+After switching to hadoopuser, Setup SSH Keys.
+```bash
+ssh-keygen -t rsa
+```
+And add the public key to authorized keys.
+```bash
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+```
+
+#### 3. Download Apache Hadoop
