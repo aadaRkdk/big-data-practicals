@@ -26,3 +26,13 @@ After installation, confirm the Java version with:
 ```bash
 java --version
 ```
+
+### 2. Create Hadoop User:
+To create dedicated user for Hadoop.
+```bash
+sudo adduser hadoopuser
+```
+After creating hadoopuser, switch to it.
+```bash 
+sudo su -hadoopuser
+```
