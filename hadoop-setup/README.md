@@ -46,3 +46,14 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 
 #### 3. Download Apache Hadoop
+To download hadoop-3.4.0 version.
+```bash
+wget https://dlcdn.apache.org/hadoop/common/hadoop-3.4.0/hadoop-3.4.0-src.tar.gz
+```
+For more details and the latest releases, visit the official Apache Hadoop release page:
+[Apache Hadoop Releases](https://hadoop.apache.org/releases.html)
+
+After downloading. To extract.
+```bash
+tar -xvzf hadoop-3.4.0.tar.gz
+```
