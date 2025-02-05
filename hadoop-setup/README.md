@@ -111,3 +111,17 @@ Add the following line (or modify if it already exists):
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 ```
 
+#### 6. Configure Hadoop Configuration Files
+
+Open the following configuration files and update them accordingly.
+
+To open a file, use:
+
+```bash
+nano <file_name>  # Replace <file_name> with the full path if necessary
+```
+And Modify or add the required configurations in the respective files:
+- **[core-site.xml](core-site.xml)**
+- **[hdfs-site.xml](hdfs-site.xml)**
+- **[yarn-site.xml](yarn-site.xml)**
+- **[mapred-site.xml](mapred-site.xml)**
