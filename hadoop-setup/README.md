@@ -99,4 +99,15 @@ hadoop version
 You should see an output similar to:
 ![Hadoop version output](ss1.png)
 
+#### 5. Configure `hadoop-env.sh` File
+
+Open the `hadoop-env.sh` configuration file:
+
+```bash
+nano ~/hadoop/etc/hadoop/hadoop-env.sh
+```
+Add the following line (or modify if it already exists):
+```# Set JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+```
 
