@@ -104,7 +104,7 @@ You should see an output similar to:
 Open the `hadoop-env.sh` configuration file:
 
 ```bash
-nano ~/hadoop/etc/hadoop/hadoop-env.sh
+nano ~/hadoop/etc/hadoop/hadoop-env.sh      #location to hadoop-env.sh may vary.
 ```
 Add the following line (or modify if it already exists):
 ```# Set JAVA_HOME
