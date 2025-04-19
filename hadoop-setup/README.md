@@ -125,3 +125,23 @@ And Modify or add the required configurations in the respective files:
 - **[hdfs-site.xml](hdfs-site.xml)**
 - **[yarn-site.xml](yarn-site.xml)**
 - **[mapred-site.xml](mapred-site.xml)**
+
+
+#### 7. Create directories for namenode and datanode.
+```bash
+mkdir -p ~/hadoopdata/namenode
+mkdir -p ~/hadoopdata/datanode
+```
+and set permissions
+```
+sudo chmod -R 755 ~/hadoopdata/namenode
+sudo chmod -R 755 ~/hadoopdata/datanode
+```
+Change the the ownership to hadoopuser:
+```
+sudo chown -R hadoopuser:hadoopuser /hadoop/hadoopdata
+```
+Then, format namenode.
+```
+hdfs namenode -format
+```
