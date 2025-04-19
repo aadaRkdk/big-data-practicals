@@ -6,3 +6,4 @@ Each folder contains resources, scripts and configuration files for practicals. 
 
 ## Table of Contents
 ## 1. [Hadoop Installation and Configuration](hadoop-setup/README.md)
+## 2. [WordCount problem](wordcount)
